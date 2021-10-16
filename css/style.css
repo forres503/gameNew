@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url(../img/wii_virtual_console_awesome.jpg);
+    background-size: cover;
+    z-index: 10;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+.cont{
+    margin: auto;
+    z-index: 2000;
+    background-color: #fff;
+    min-height: 100vh;
+    margin: 5vh 10vh; 
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #ededed;
+    line-height: 10vh;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2em;
+    height: 10vh;
+}
+
+.logo a{
+    font-family: 'Festive', cursive;
+    color: #000;
+    font-size: 30px;
+}
+
+.logo i{
+    margin: 0 .5em;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.enlaces{
+    float: right;
+    padding: 0 2em;
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+.enlaces a{
+    font-family: 'Oswald', sans-serif;
+    padding: 0 .5em;
+    color: #000;
+    transition: color .2s ease;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.enlaces a:hover{
+    color: #ff0000;
+}
+
+.inputs{
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs input{
+    border: none;
+    outline: none;
+    width: 15em;
+    height: 50%;
+    border-radius: 16px;
+    padding: 0 1em;
+}
+
+.hero{
+    width: 95%;
+    height: 70vh;
+    margin: auto;
+    background-image: url(../img/ps5.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero__texts{
+    text-align: center;
+    padding-bottom: 2em;
+    color: #fff;
+}
+
+.hero__paragrapth{
+    margin-bottom: 1em;
+}
+
+.hero__btn{
+    background-color: #2b2a33;
+    color: #fff;
+    display: inline-block;
+    padding: .2em .2em;
+    border-radius: 5px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5em;
+    margin: 2em 0;
+}
+
+.card{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__texts{
+    height: 50%;
+}
+
+.card__img{
+    width: 100%;
+    height: auto;
+}
+
+.card__paragrapth{
+    margin-bottom: .5em;
+}
+
+.card__btn{
+    color: blue;
+    transition: color .2s;
+}
+
+.card__btn:hover{
+    color: #ff0000;
+    text-decoration: solid;
+}
+
+footer{
+    background-color: #ededed;
+    width: 100%;
+    height: 25vh;
+}
+
+.--foo a{
+    font-size: 2.3em;
+}
+
+.footer__icons{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__icons a{
+    font-size: 3em;
+    color: #ff0000;
+}
